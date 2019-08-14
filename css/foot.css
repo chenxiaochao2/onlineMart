@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#div_foot{
+	width: 1000px;
+	margin: 0 auto;
+	height: 162px;
+
+
+
+	}
+#div_foot ul li{
+	float: left;
+	list-style-type: none;
+	border-left: solid 1px black;
+	padding: 0 5px;
+	font-size: small;
+}
+#div_foot ul li:first-child{
+	border-left: none;
+}
+#div_foot ul{
+	width: 750px;
+	margin: 0 auto;
+	
+
+}
+
+p{
+	text-align: center;
+
+	line-height: 28px;
+}

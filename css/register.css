@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+#main{
+
+	width: 978px;
+	height: 800px;
+	background-image: url(images/h_bg.jpg);
+	margin:0 auto;
+}
+
+#top{
+	background-image: url('../images/h_bg1.jpg');
+	background-repeat:no-repeat;
+	height: 140px;
+	width: 980px;
+	
+}
+#midle{
+	height: 500px;
+	width: 1000px;
+	background-image: url('../images/reg_bg.gif');
+	background-repeat:no-repeat;
+	
+}
+#buttom{
+	width: 980px;
+	height: 162px;
+
+}
+.shoppingcar{
+
+	list-style-type: none;
+	height: 20px;
+	width: 320px;
+}
+.denglu{
+	
+	list-style-type: none;
+	text-align: right;
+	width: 90px;
+	height: 25px;
+
+}
+.shoppingcar li{
+	float: left;
+	font-size: small;
+	line-height: 5px;
+	width: 25%;
+}
+.denglu li{
+	float: left;
+	font-size: small;
+	line-height: 5px;
+	width: 50%;
+	}
+#aaa{
+	padding-left: 540px;
+	padding-top: 18px;
+	float: left;
+	height: 43px;
+	width: 320px;
+	
+}
+.shoppingcar li img{
+	width: 18px;
+	height: 18px;
+
+}
+#bbb{
+
+	height: 40px;
+	width: 115px;
+	float: right;
+	padding-top: 15px;
+}
+#welcome{
+
+	width: 810px;
+	height: 18px;
+	font-size:small;
+	color: gray;
+	margin-top: 100px 0;
+	padding-top: 78px;
+	text-align: right;
+}
+#table1{
+	width: 675px;
+	height: 10px;
+	padding-top: 6px;
+	float: left;
+}
+#table1 tr td{
+	width: 12.5%;
+	text-align: center;
+	
+}
+#table1 tr td a:hover{color:red;}
+#table1 tr td a{
+	text-decoration: none;
+	color: black;
+}	
+
+#iframe1{
+	border: 0;
+	width: 980px;
+	height: 162px;
+	
+}
+body{
+	padding: 0 auto;
+}
+.tip{
+	text-decoration: none;
+	color: black;
+}
+#search{
+	height: 26px;
+	width: 234px;
+
+	float: right;
+	margin-top: 7px;
+}
+#text1{
+	border: none;
+	background: none;
+	width: 161px;
+	height: 23px;
+	float: left;
+}
+#button_search{
+	background: url(images/search.JPG);
+	width: 68px;
+	height: 28px;
+	border: none;
+
+
+}
+#m_left{
+
+	width: 520px;
+	height: 500px;
+	float: left;
+}
+#m_right{
+
+	width: 458px;
+	height: 400px;
+	float: left;
+	padding-bottom: 100px;
+}
+#table3{
+	height: 450px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+#table3 tr td:first-child{
+	text-align: right;
+	
+}
+textarea{
+	overflow-x: scroll;
+	margin-left: 140px;
+	line-height: none;
+	display: inline-block;
+}
+#m_right h4{
+	
+	margin-left: 140px;
+}
+.submit_1{
+	background:url('../images/submit.gif');
+	width: 80px;
+	height: 34px;
+	border: none;
+	
+}
+.reset_1{
+	background:url('../images/reset.gif');
+	width: 80px;
+	height: 34px;
+	border: none;
+	
+}

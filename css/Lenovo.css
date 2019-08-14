@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+#main{
+
+	width: 978px;
+	height: auto;
+	background-image: url(images/h_bg.jpg);
+	margin:0 auto;
+}
+
+#top{
+	background-image: url('../images/h_bg1.jpg');
+	background-repeat:no-repeat;
+	height: 140px;
+	width: 980px;
+	
+}
+#midle{
+	height: auto;
+	width: 1000px;
+	
+}
+#buttom{
+	width: 980px;
+	height: 162px;
+
+}
+.shoppingcar{
+
+	list-style-type: none;
+	height: 20px;
+	width: 320px;
+}
+.denglu{
+	
+	list-style-type: none;
+	text-align: right;
+	width: 90px;
+	height: 25px;
+
+}
+.shoppingcar li{
+	float: left;
+	font-size: small;
+	line-height: 5px;
+	width: 25%;
+}
+.denglu li{
+	float: left;
+	font-size: small;
+	line-height: 5px;
+	width: 50%;
+	}
+#aaa{
+	padding-left: 540px;
+	padding-top: 18px;
+	float: left;
+	height: 43px;
+	width: 320px;
+	
+}
+.shoppingcar li img{
+	width: 18px;
+	height: 18px;
+
+}
+#bbb{
+
+	height: 40px;
+	width: 115px;
+	float: right;
+	padding-top: 15px;
+}
+#welcome{
+
+	width: 810px;
+	height: 18px;
+	font-size:small;
+	color: gray;
+	margin-top: 100px 0;
+	padding-top: 78px;
+	text-align: right;
+}
+#table1{
+	width: 675px;
+	height: 10px;
+	padding-top: 6px;
+	float: left;
+}
+#table1 tr td{
+	width: 12.5%;
+	text-align: center;
+	
+}
+#table1 tr td a:hover{color:red;}
+#table1 tr td a{
+	text-decoration: none;
+	color: black;
+}	
+
+#iframe1{
+	border: 0;
+	width: 980px;
+	height: 162px;
+	
+}
+body{
+	padding: 0 auto;
+}
+.tip{
+	text-decoration: none;
+	color: black;
+}
+#search{
+	height: 26px;
+	width: 234px;
+
+	float: right;
+	margin-top: 7px;
+}
+#text1{
+	border: none;
+	background: none;
+	width: 161px;
+	height: 23px;
+	float: left;
+}
+#button_search{
+	background: url(images/search.JPG);
+	width: 68px;
+	height: 28px;
+	border: none;
+
+
+}
+#midle h4{
+	text-align: center;
+	font-family: 宋体;
+	margin: 10px auto;
+}
+#m_left{
+	width: 350px;
+	height: auto;
+	float: left;
+}
+#m_right{
+	width: 320px;
+	height: auto;
+	float: left;
+	margin-left: 30px;
+	
+	line-height: 30px;
+}
+#left_small{
+	width: 350px;
+	height: auto;
+	
+}
+#left_small table{
+	width: 350px;
+}
+#left_small table img{
+	border: 1px solid gainsboro;
+}
+#guimei{
+	width: 320px;
+	height: 40px;
+	border: 1px solid orange;
+	background-color: lemonchiffon;
+	vertical-align: middle;
+	font-size: small;
+
+}
+#guimei_left{
+	width: 70px;
+	height: 38px;
+	float: left;
+	vertical-align: middle;
+	margin-top: 10px;
+}
+#guimei_right{
+	width: 250px;
+	height: 38px;
+	float: left;
+	line-height: 19px;
+}
+#left_small table tr td:hover{
+	border: 1px solid #DDD;
+	border-right: 0;
+	background-image:none;
+	z-index: 1;
+}
